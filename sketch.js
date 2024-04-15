@@ -93,7 +93,7 @@ for (x = 0; x < img.width; x = x + 5) {
 function draw() {
 
   image(cnv2, 0, 0)
-  if (mouseIsPressed) {
+  if (mouseIsPressed && mouseX>=190 && mouseX <=730 && mouseY>=100 &&mouseY<=750) {
     flag = false
   }
   if (flag) {
